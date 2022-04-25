@@ -1,0 +1,3 @@
+docker create -v /dados --name meucontainer imagem /bin/true
+docker run -d --volumes-from dados--name meucontainer1 imagem
+docker run -d --volumes-from container1 --name meucontainer2 imagem
